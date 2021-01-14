@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Api Search Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <form action="">
+            <input type="text" placeholder="Search Repo" name="searchTerm" id="searchTerm">
+            <select name="sortBased" id="">
+                <option value="">SORT BASED ON</option>
+                <option value="stars">stars</option>
+                <option value="forks">forks</option>
+                <option value="help-wanted-issues">help help-wanted-issues</option>
+                <option value="updated">updated</option>
+            </select>
+
+                <select name="sortOrder" id="">
+                    <option value="">SORT ORDER</option>
+                    <option value="asc">ASCENDING</option>
+                    <option value="desc">DECENDING</option>
+                </select>
+           
+            <input type="submit" value="SEARCH">
+
+        </form>
+        <div id="display"></div>
+
+    <script src="App.js"></script>
+</body>
+</html>
